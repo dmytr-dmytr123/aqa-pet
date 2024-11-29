@@ -31,6 +31,12 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.3.20.Final</version>
         </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.19.0</version>
+        </dependency>
+
 
         <!-- Hibernate 4 uses Jboss logging, but older versions slf4j for logging -->
         <dependency>
@@ -86,6 +92,14 @@
 
 
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
 

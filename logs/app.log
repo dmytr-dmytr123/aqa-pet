@@ -1,0 +1,6 @@
+2024-11-29 05:05:46 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-11-29 05:05:52 INFO  YoutubeThemeBO - opening settings menu
+2024-11-29 05:05:52 INFO  YoutubeThemeBO - opening appearance settings
+2024-11-29 05:05:53 INFO  YoutubeThemeBO - selecting dark theme
+2024-11-29 05:05:54 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-11-29 05:05:54 INFO  YoutubeLoginBO - starting login process for user: email@gmail.com

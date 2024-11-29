@@ -15,7 +15,7 @@ import static driver.DriverProvider.getDriver;
 public class YoutubeSearchPO {
     private WebDriver driver = getDriver();
 
-    @FindBy(xpath = "/html/body/ytd-app/div[1]/div[2]/ytd-masthead/div[4]/div[2]/yt-searchbox/div[1]/form/input") // Updated stable XPath
+    @FindBy(xpath = "/html/body/ytd-app/div[1]/div[2]/ytd-masthead/div[4]/div[2]/ytd-searchbox/form/div[1]/div[1]/div/div[2]/input")
     private WebElement searchBox;
 
     public YoutubeSearchPO() {
@@ -23,9 +23,8 @@ public class YoutubeSearchPO {
     }
 
     public void search(String query) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(7));
         wait.until(ExpectedConditions.visibilityOf(searchBox));
-        searchBox.click();
         searchBox.clear();
         searchBox.sendKeys(query);
         searchBox.submit();
