@@ -4,3 +4,25 @@
 2024-11-29 05:05:53 INFO  YoutubeThemeBO - selecting dark theme
 2024-11-29 05:05:54 INFO  YoutubeThemeBO - dark theme selected successfully
 2024-11-29 05:05:54 INFO  YoutubeLoginBO - starting login process for user: email@gmail.com
+2024-11-29 05:08:04 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-11-29 05:08:08 INFO  YoutubeThemeBO - opening settings menu
+2024-11-29 05:08:08 INFO  YoutubeThemeBO - opening appearance settings
+2024-11-29 05:08:09 INFO  YoutubeThemeBO - selecting dark theme
+2024-11-29 05:08:10 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-11-29 05:08:10 INFO  YoutubeLoginBO - starting login process for user: email@gmail.com
+2024-11-29 05:12:15 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-11-29 05:12:19 INFO  YoutubeThemeBO - opening settings menu
+2024-11-29 05:12:19 INFO  YoutubeThemeBO - opening appearance settings
+2024-11-29 05:12:20 INFO  YoutubeThemeBO - selecting dark theme
+2024-11-29 05:12:21 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-11-29 05:12:21 INFO  YoutubeLoginBO - starting login process for user: email@gmail.com
+2024-11-29 05:12:41 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-11-29 05:12:42 INFO  TrelloApiHelper - prganization created with ID: 6749312a79afe4c5b410df96
+2024-11-29 05:12:42 INFO  TrelloApiHelper - deleting organization with ID: 6749312a79afe4c5b410df96
+2024-11-29 05:12:43 INFO  TrelloApiHelper - organization with ID: 6749312a79afe4c5b410df96 deleted successfully
+2024-11-29 05:12:43 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-11-29 05:12:44 INFO  TrelloApiHelper - prganization created with ID: 6749312b3442e86a72f8335f
+2024-11-29 05:12:44 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 6749312b3442e86a72f8335f
+2024-11-29 05:12:44 INFO  TrelloApiHelper - board created with ID: 6749312cdcb719316ce05371
+2024-11-29 05:12:44 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-11-29 05:12:45 INFO  TrelloApiHelper - prganization created with ID: 6749312c915bef0ee1df03fd
