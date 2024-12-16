@@ -24,10 +24,10 @@ public class YoutubeLoginPO {
     @FindBy(xpath = "//span[contains(text(),'Next') or contains(text(),'Далі')]")
     private WebElement nextButton;
 
-    @FindBy(name = "password")
+    @FindBy(name = "Passwd")
     private WebElement passwordInput;
 
-    @FindBy(xpath = "//ytd-topbar-menu-button-renderer[@id='avatar-btn']")
+    @FindBy(id = "avatar-btn")
     private WebElement avatarButton;
 
     public YoutubeLoginPO() {

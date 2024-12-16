@@ -5,33 +5,43 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import util.PropertyReader;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverProvider {
     private static WebDriver driver;
 
-    /**
-     * Returns a singleton instance of WebDriver based on the specified browser in the properties file.
-     * Defaults to Chrome if no browser is specified.
-     */
+
     public static WebDriver getDriver() {
         if (driver == null) {
             String browser = PropertyReader.getProperty("browser");
             if (browser == null || browser.isEmpty()) {
-                browser = "chrome"; // Default to Chrome if no browser is specified
+                browser = "chrome";
             }
 
             switch (browser.toLowerCase()) {
                 case "firefox": {
                     WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
+                    FirefoxOptions options = new FirefoxOptions();
+                    options.addPreference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Gecko/20100101 Firefox/89.0");
+                    driver = new FirefoxDriver(options);
                     break;
                 }
-                case "chrome":
-                default: {
+
+                case "chrome": {
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--disable-blink-features=AutomationControlled");
+                    options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+                    options.setExperimentalOption("useAutomationExtension", false);
+                    options.addArguments("--disable-popup-blocking");
+                    options.addArguments("--incognito");
+                    options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.4577.63 Safari/537.36");
+
+                    driver = new ChromeDriver(options);
                     break;
                 }
+
             }
 
             driver.manage().window().maximize();
@@ -39,9 +49,7 @@ public class DriverProvider {
         return driver;
     }
 
-    /**
-     * Quits the WebDriver instance and sets it to null.
-     */
+
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();

@@ -1,11 +1,15 @@
 package ui;
 
 import BO.YoutubeBO;
-import org.testng.Assert;
+import com.automation.remarks.testng.UniversalVideoListener;
+import com.automation.remarks.video.annotations.Video;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class YoutubePlayVideo {
+@Listeners({YoutubeBO.class, UniversalVideoListener.class})
+public class YoutubePlayVideoTest {
     @Test
+    @Video
     public void testPlayVideo() {
         YoutubeBO youtubeBO = new YoutubeBO();
 

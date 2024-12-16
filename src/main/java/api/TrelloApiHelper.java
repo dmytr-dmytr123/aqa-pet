@@ -7,6 +7,9 @@ import model.Board;
 import model.Organization;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.IExecutionListener;
+import org.testng.ISuiteListener;
+import org.testng.ITestListener;
 import util.PropertyReader;
 
 import static io.restassured.RestAssured.given;

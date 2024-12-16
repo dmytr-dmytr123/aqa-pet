@@ -15,7 +15,7 @@ import static driver.DriverProvider.getDriver;
 public class YoutubeSearchPO {
     private WebDriver driver = getDriver();
 
-    @FindBy(xpath = "/html/body/ytd-app/div[1]/div[2]/ytd-masthead/div[4]/div[2]/ytd-searchbox/form/div[1]/div[1]/div/div[2]/input")
+    @FindBy(name = "search_query")
     private WebElement searchBox;
 
     public YoutubeSearchPO() {

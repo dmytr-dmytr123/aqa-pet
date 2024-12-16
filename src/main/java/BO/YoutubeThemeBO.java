@@ -5,10 +5,13 @@ import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.IExecutionListener;
+import org.testng.ISuiteListener;
+import org.testng.ITestListener;
 
 import static driver.DriverProvider.getDriver;
 
-public class YoutubeThemeBO {
+public class YoutubeThemeBO implements ITestListener, ISuiteListener, IExecutionListener {
     private static final Logger logger = LogManager.getLogger(YoutubeThemeBO.class);
     private final WebDriver driver = getDriver();
     private final YoutubeThemePO youtubeThemePO = new YoutubeThemePO(driver);

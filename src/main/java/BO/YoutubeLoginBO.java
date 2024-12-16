@@ -5,10 +5,13 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.IExecutionListener;
+import org.testng.ISuiteListener;
+import org.testng.ITestListener;
 
 import static driver.DriverProvider.getDriver;
 
-public class YoutubeLoginBO {
+public class YoutubeLoginBO implements ITestListener, ISuiteListener, IExecutionListener {
     private final WebDriver driver = getDriver();
     private final YoutubeLoginPO loginPO = new YoutubeLoginPO();
     private static final Logger logger = LogManager.getLogger(YoutubeLoginBO.class);

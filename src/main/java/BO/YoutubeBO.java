@@ -7,12 +7,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.IExecutionListener;
+import org.testng.ISuiteListener;
+import org.testng.ITestListener;
 
 import java.time.Duration;
 
 import static driver.DriverProvider.getDriver;
 
-public class YoutubeBO {
+public class YoutubeBO implements ITestListener, ISuiteListener, IExecutionListener {
     private final WebDriver driver = getDriver();
     private final YoutubeSearchPO youtubeSearchPO = new YoutubeSearchPO();
     @Step("Search for query")
