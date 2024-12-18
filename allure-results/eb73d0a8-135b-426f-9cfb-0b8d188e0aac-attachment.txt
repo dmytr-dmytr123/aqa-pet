@@ -1,0 +1,1 @@
+{"id":"67623d303081f1c32e929103","name":"deleteorganization","displayName":"Delete Organization","desc":"","descData":{"emoji":{}},"url":"https://trello.com/w/deleteorganization","website":null,"teamType":null,"logoHash":null,"logoUrl":null,"offering":"trello.free","products":[],"powerUps":[],"idMemberCreator":"635186ad3f942d05a9a90385","limits":{}}

@@ -1,5 +1,6 @@
 package api;
 
+import io.qameta.allure.Allure;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.qameta.allure.Step;
@@ -11,6 +12,8 @@ import org.testng.IExecutionListener;
 import org.testng.ISuiteListener;
 import org.testng.ITestListener;
 import util.PropertyReader;
+
+import java.nio.charset.StandardCharsets;
 
 import static io.restassured.RestAssured.given;
 
@@ -39,6 +42,9 @@ public class TrelloApiHelper {
                 .extract()
                 .response();
 
+        attachApiDetailsToAllure("POST /organizations",
+                "displayName=" + displayName, response);
+
         logger.info("prganization created with ID: {}", response.jsonPath().getString("id"));
 
         return new Organization(
@@ -46,6 +52,8 @@ public class TrelloApiHelper {
                 response.jsonPath().getString("displayName")
         );
     }
+
+
 
     @Step("create board with name: {name} in organization ID: {organizationId}")
     public static Board createBoard(String name, String organizationId) {
@@ -65,6 +73,8 @@ public class TrelloApiHelper {
                 .extract()
                 .response();
 
+        attachApiDetailsToAllure("POST /boards",
+                "name=" + name + "&idOrganization=" + organizationId, response);
         logger.info("board created with ID: {}", response.jsonPath().getString("id"));
 
         return new Board(
@@ -86,6 +96,16 @@ public class TrelloApiHelper {
                 .log().body()
                 .statusCode(200);
 
+
+
         logger.info("organization with ID: {} deleted successfully", organizationId);
     }
+    private static void attachApiDetailsToAllure(String endpoint, String request, Response response) {
+        Allure.addAttachment("Endpoint", endpoint);
+        Allure.addAttachment("Request Parameters", request);
+        Allure.addAttachment("Response Status Code", String.valueOf(response.getStatusCode()));
+        Allure.addAttachment("Response Body",
+                new String(response.body().asByteArray(), StandardCharsets.UTF_8));
+    }
+
 }

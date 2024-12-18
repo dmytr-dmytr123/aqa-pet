@@ -1,0 +1,1 @@
+{"id":"67623cef8f313015b69b370a","name":"boardorganization27","displayName":"Board Organization","desc":"","descData":{"emoji":{}},"url":"https://trello.com/w/boardorganization27","website":null,"teamType":null,"logoHash":null,"logoUrl":null,"offering":"trello.free","products":[],"powerUps":[],"idMemberCreator":"635186ad3f942d05a9a90385","limits":{}}

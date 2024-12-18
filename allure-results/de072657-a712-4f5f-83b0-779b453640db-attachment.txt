@@ -1,0 +1,1 @@
+{"id":"67623cf163e2d40a86f7264e","name":"testorganization669","displayName":"Test Organization","desc":"","descData":{"emoji":{}},"url":"https://trello.com/w/testorganization669","website":null,"teamType":null,"logoHash":null,"logoUrl":null,"offering":"trello.free","products":[],"powerUps":[],"idMemberCreator":"635186ad3f942d05a9a90385","limits":{}}
