@@ -20,3 +20,145 @@
 2024-12-16 03:05:13 INFO  TrelloApiHelper - board created with ID: 675f7cc96ef3fc87f66c53d6
 2024-12-16 03:05:13 INFO  TrelloApiHelper - creating organization with display name: Test Organization
 2024-12-16 03:05:13 INFO  TrelloApiHelper - prganization created with ID: 675f7cc9a17ba6e85889f179
+2024-12-18 04:12:51 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:13:03 INFO  YoutubeBO - check results
+2024-12-18 04:13:05 INFO  YoutubeBO - run first video
+2024-12-18 04:13:05 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:13:06 INFO  YoutubeBO - check results
+2024-12-18 04:13:08 INFO  YoutubeBO - run first video
+2024-12-18 04:13:09 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:13:10 INFO  YoutubeBO - check results
+2024-12-18 04:13:12 INFO  YoutubeBO - run first video
+2024-12-18 04:13:31 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:13:37 INFO  YoutubeBO - check results
+2024-12-18 04:13:39 INFO  YoutubeBO - run first video
+2024-12-18 04:13:53 INFO  YoutubeLoginBO - starting login process for user: user1@gmail.com
+2024-12-18 04:14:29 INFO  YoutubeLoginBO - starting login process for user: rogrogned@gmail.com
+2024-12-18 04:15:34 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:15:40 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:15:41 INFO  YoutubeThemeBO - opening appearance settings
+2024-12-18 04:15:41 INFO  YoutubeThemeBO - selecting dark theme
+2024-12-18 04:15:42 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-12-18 04:15:42 INFO  YoutubeLoginBO - starting login process for user: user1@gmail.com
+2024-12-18 04:16:04 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:16:04 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-12-18 04:16:06 INFO  TrelloApiHelper - prganization created with ID: 676230659e14d8f24eeec4b8
+2024-12-18 04:16:06 INFO  TrelloApiHelper - deleting organization with ID: 676230659e14d8f24eeec4b8
+2024-12-18 04:16:07 INFO  TrelloApiHelper - organization with ID: 676230659e14d8f24eeec4b8 deleted successfully
+2024-12-18 04:16:07 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-12-18 04:16:07 INFO  TrelloApiHelper - prganization created with ID: 676230672534c50eb18ad7fa
+2024-12-18 04:16:07 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 676230672534c50eb18ad7fa
+2024-12-18 04:16:08 INFO  TrelloApiHelper - board created with ID: 676230672534c50eb18ad8ad
+2024-12-18 04:16:08 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-12-18 04:16:08 INFO  TrelloApiHelper - prganization created with ID: 6762306884fe6d1ba170fd4a
+2024-12-18 04:24:44 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:24:49 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:25:09 INFO  YoutubeLoginBO - starting login process for user: user1@gmail.com
+2024-12-18 04:25:29 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:25:30 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-12-18 04:25:31 INFO  TrelloApiHelper - prganization created with ID: 6762329bb3a8fbe5843211fe
+2024-12-18 04:25:31 INFO  TrelloApiHelper - deleting organization with ID: 6762329bb3a8fbe5843211fe
+2024-12-18 04:25:32 INFO  TrelloApiHelper - organization with ID: 6762329bb3a8fbe5843211fe deleted successfully
+2024-12-18 04:25:32 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-12-18 04:25:32 INFO  TrelloApiHelper - prganization created with ID: 6762329cde115bdb6babc645
+2024-12-18 04:25:32 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 6762329cde115bdb6babc645
+2024-12-18 04:25:33 INFO  TrelloApiHelper - board created with ID: 6762329d837262f16ec97d2f
+2024-12-18 04:25:33 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-12-18 04:25:33 INFO  TrelloApiHelper - prganization created with ID: 6762329d0bf0fc176bf98d9e
+2024-12-18 04:38:17 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:38:24 INFO  YoutubeBO - check results
+2024-12-18 04:38:26 INFO  YoutubeBO - run first video
+2024-12-18 04:41:16 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:41:22 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:41:22 INFO  YoutubeThemeBO - opening appearance settings
+2024-12-18 04:41:22 INFO  YoutubeThemeBO - selecting dark theme
+2024-12-18 04:41:23 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-12-18 04:41:24 INFO  YoutubeLoginBO - starting login process for user: rogrogned.com
+2024-12-18 04:41:50 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:41:55 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:41:55 INFO  YoutubeThemeBO - opening appearance settings
+2024-12-18 04:41:56 INFO  YoutubeThemeBO - selecting dark theme
+2024-12-18 04:41:57 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-12-18 04:41:58 INFO  YoutubeLoginBO - starting login process for user: rogrogned@gmail.com
+2024-12-18 04:42:01 INFO  YoutubeLoginBO - login process completed for user: rogrogned@gmail.com
+2024-12-18 04:42:01 INFO  YoutubeLoginBO - verifying if the user is logged in
+2024-12-18 04:42:05 INFO  YoutubeLoginBO - user login status: logged In
+2024-12-18 04:42:06 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:42:09 INFO  YoutubeBO - check results
+2024-12-18 04:42:11 INFO  YoutubeBO - run first video
+2024-12-18 04:42:12 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-12-18 04:42:14 INFO  TrelloApiHelper - prganization created with ID: 676236857baf9d8fa1ebd234
+2024-12-18 04:42:14 INFO  TrelloApiHelper - deleting organization with ID: 676236857baf9d8fa1ebd234
+2024-12-18 04:42:15 INFO  TrelloApiHelper - organization with ID: 676236857baf9d8fa1ebd234 deleted successfully
+2024-12-18 04:42:16 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-12-18 04:42:16 INFO  TrelloApiHelper - prganization created with ID: 67623688ea614a4a305ce0bd
+2024-12-18 04:42:16 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 67623688ea614a4a305ce0bd
+2024-12-18 04:42:17 INFO  TrelloApiHelper - board created with ID: 67623689fbf280706bcf94b2
+2024-12-18 04:42:19 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-12-18 04:42:19 INFO  TrelloApiHelper - prganization created with ID: 6762368b84037febaa6c43d3
+2024-12-18 04:45:06 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:45:14 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:45:14 INFO  YoutubeThemeBO - opening appearance settings
+2024-12-18 04:45:15 INFO  YoutubeThemeBO - selecting dark theme
+2024-12-18 04:45:16 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-12-18 04:45:16 INFO  YoutubeLoginBO - starting login process for user: rogrogned@gmail.com
+2024-12-18 04:45:21 INFO  YoutubeLoginBO - login process completed for user: rogrogned@gmail.com
+2024-12-18 04:45:21 INFO  YoutubeLoginBO - verifying if the user is logged in
+2024-12-18 04:45:24 INFO  YoutubeLoginBO - user login status: logged In
+2024-12-18 04:45:26 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:45:28 INFO  YoutubeBO - check results
+2024-12-18 04:45:30 INFO  YoutubeBO - run first video
+2024-12-18 04:45:33 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-12-18 04:45:34 INFO  TrelloApiHelper - prganization created with ID: 6762374e4d00ec192a0b6836
+2024-12-18 04:45:34 INFO  TrelloApiHelper - deleting organization with ID: 6762374e4d00ec192a0b6836
+2024-12-18 04:45:35 INFO  TrelloApiHelper - organization with ID: 6762374e4d00ec192a0b6836 deleted successfully
+2024-12-18 04:45:37 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-12-18 04:45:37 INFO  TrelloApiHelper - prganization created with ID: 676237510e9cdac68f589240
+2024-12-18 04:45:37 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 676237510e9cdac68f589240
+2024-12-18 04:45:38 INFO  TrelloApiHelper - board created with ID: 67623751dbb1c57af2693627
+2024-12-18 04:45:39 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-12-18 04:45:39 INFO  TrelloApiHelper - prganization created with ID: 67623753675194ea2af891f6
+2024-12-18 04:46:13 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:46:19 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:46:19 INFO  YoutubeThemeBO - opening appearance settings
+2024-12-18 04:46:20 INFO  YoutubeThemeBO - selecting dark theme
+2024-12-18 04:46:21 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-12-18 04:46:22 INFO  YoutubeLoginBO - starting login process for user: rogrogned@gmail.com
+2024-12-18 04:46:25 INFO  YoutubeLoginBO - login process completed for user: rogrogned@gmail.com
+2024-12-18 04:46:25 INFO  YoutubeLoginBO - verifying if the user is logged in
+2024-12-18 04:46:29 INFO  YoutubeLoginBO - user login status: logged In
+2024-12-18 04:46:31 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:46:33 INFO  YoutubeBO - check results
+2024-12-18 04:46:35 INFO  YoutubeBO - run first video
+2024-12-18 04:46:36 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-12-18 04:46:39 INFO  TrelloApiHelper - prganization created with ID: 6762378e6b57d2847162bca3
+2024-12-18 04:46:39 INFO  TrelloApiHelper - deleting organization with ID: 6762378e6b57d2847162bca3
+2024-12-18 04:46:39 INFO  TrelloApiHelper - organization with ID: 6762378e6b57d2847162bca3 deleted successfully
+2024-12-18 04:46:41 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-12-18 04:46:41 INFO  TrelloApiHelper - prganization created with ID: 67623791c746c8986ae71993
+2024-12-18 04:46:41 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 67623791c746c8986ae71993
+2024-12-18 04:46:42 INFO  TrelloApiHelper - board created with ID: 67623791df47065b44aa9b66
+2024-12-18 04:46:43 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-12-18 04:46:43 INFO  TrelloApiHelper - prganization created with ID: 67623793eb18bc817c68410e
+2024-12-18 04:49:42 INFO  YoutubeThemeBO - navigating to youTube home page
+2024-12-18 04:49:48 INFO  YoutubeThemeBO - opening settings menu
+2024-12-18 04:49:48 INFO  YoutubeThemeBO - opening appearance settings
+2024-12-18 04:49:49 INFO  YoutubeThemeBO - selecting dark theme
+2024-12-18 04:49:50 INFO  YoutubeThemeBO - dark theme selected successfully
+2024-12-18 04:49:51 INFO  YoutubeLoginBO - starting login process for user: rogrogned@gmail.com
+2024-12-18 04:49:54 INFO  YoutubeLoginBO - login process completed for user: rogrogned@gmail.com
+2024-12-18 04:49:54 INFO  YoutubeLoginBO - verifying if the user is logged in
+2024-12-18 04:49:57 INFO  YoutubeLoginBO - user login status: logged In
+2024-12-18 04:49:59 INFO  YoutubeBO - Navigating to YouTube home page
+2024-12-18 04:50:01 INFO  YoutubeBO - check results
+2024-12-18 04:50:03 INFO  YoutubeBO - run first video
+2024-12-18 04:50:04 INFO  TrelloApiHelper - creating organization with display name: Delete Organization
+2024-12-18 04:50:05 INFO  TrelloApiHelper - prganization created with ID: 6762385d5be721e13f20dd86
+2024-12-18 04:50:05 INFO  TrelloApiHelper - deleting organization with ID: 6762385d5be721e13f20dd86
+2024-12-18 04:50:06 INFO  TrelloApiHelper - organization with ID: 6762385d5be721e13f20dd86 deleted successfully
+2024-12-18 04:50:07 INFO  TrelloApiHelper - creating organization with display name: Board Organization
+2024-12-18 04:50:08 INFO  TrelloApiHelper - prganization created with ID: 67623860f9ef3c5406469005
+2024-12-18 04:50:08 INFO  TrelloApiHelper - creating board with name: Test Board in organization ID: 67623860f9ef3c5406469005
+2024-12-18 04:50:08 INFO  TrelloApiHelper - board created with ID: 67623860b4e3bc7e080edb04
+2024-12-18 04:50:09 INFO  TrelloApiHelper - creating organization with display name: Test Organization
+2024-12-18 04:50:10 INFO  TrelloApiHelper - prganization created with ID: 6762386159438fa558d8ae15

@@ -1,20 +1,30 @@
 package ui;
 
 import BO.YoutubeBO;
+import allure.AllureMethodListener;
 import com.automation.remarks.testng.UniversalVideoListener;
 import com.automation.remarks.video.annotations.Video;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({YoutubeBO.class, UniversalVideoListener.class})
+@Listeners({YoutubeBO.class, UniversalVideoListener.class, AllureMethodListener.class})
 public class YoutubePlayVideoTest {
-    @Test
+    @DataProvider(name = "searchDataProvider")
+    public Object[][] searchDataProvider() {
+        return new Object[][] {
+                {"never gonna give you up"},
+        };
+    }
+
+    @Test(dataProvider = "searchDataProvider")
     @Video
-    public void testPlayVideo() {
+    public void testPlayVideo(String searchQuery) {
         YoutubeBO youtubeBO = new YoutubeBO();
 
-        //check results and verify if they exists
-        youtubeBO.search("never gonna give you up").checkResults();
+        //search for video
+        youtubeBO.search(searchQuery).checkResults();
+
         //play first video
         youtubeBO.playFirstVideo();
 

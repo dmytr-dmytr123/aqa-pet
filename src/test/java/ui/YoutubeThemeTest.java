@@ -2,6 +2,7 @@ package ui;
 
 import BO.YoutubeBO;
 import BO.YoutubeThemeBO;
+import allure.AllureMethodListener;
 import com.automation.remarks.testng.UniversalVideoListener;
 import com.automation.remarks.video.annotations.Video;
 import driver.DriverProvider;
@@ -13,7 +14,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({YoutubeThemeBO.class, UniversalVideoListener.class})
+@Listeners({YoutubeThemeBO.class, UniversalVideoListener.class, AllureMethodListener.class})
 public class YoutubeThemeTest {
     @Test
     @Video

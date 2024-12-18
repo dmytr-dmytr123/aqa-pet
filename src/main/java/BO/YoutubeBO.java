@@ -1,20 +1,22 @@
 package BO;
 
 import PO.YoutubeSearchPO;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.IExecutionListener;
 import org.testng.ISuiteListener;
 import org.testng.ITestListener;
 
+import java.io.ByteArrayInputStream;
 import java.time.Duration;
 
+import static allure.AllureHelper.attachHtml;
+import static allure.AllureHelper.attachScreenshot;
 import static driver.DriverProvider.getDriver;
 
 public class YoutubeBO implements ITestListener, ISuiteListener, IExecutionListener {
@@ -26,6 +28,7 @@ public class YoutubeBO implements ITestListener, ISuiteListener, IExecutionListe
         logger.info("Navigating to YouTube home page");
         driver.get("https://youtube.com/");
         youtubeSearchPO.search(query);
+
         return this;
     }
     @Step("Check if search results are displayed")
@@ -45,12 +48,15 @@ public class YoutubeBO implements ITestListener, ISuiteListener, IExecutionListe
 
             System.out.println("error while checking the results: " + e.getMessage());
         }
+
     }
     @Step("Play the first video from search results")
     public void playFirstVideo() {
         logger.info("run first video");
         youtubeSearchPO.runFirstVideo();
+
     }
+
 
 
 
