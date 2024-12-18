@@ -14,6 +14,7 @@ public class YoutubePlayVideoTest {
     public Object[][] searchDataProvider() {
         return new Object[][] {
                 {"never gonna give you up"},
+                {"rick ast"},
         };
     }
 
